@@ -4,7 +4,8 @@ Headless drupal means drupal without head { frontend }. Drupal backend as **{ PR
 ![headless](https://github.com/arsibux/drupal-headless/blob/main/_drawio/img/headless.drawio.png)
 
 - **INSTALLATION**
-- **CORE MODULES**
+- **INSTALL DEV TOOLS**
+- **ENABLE CORE MODULES**
 - **CONTRIB MODULES**
 - **AUTHENTICATION**
   - **Basic Authenticaion**
@@ -27,16 +28,17 @@ Headless drupal means drupal without head { frontend }. Drupal backend as **{ PR
 
 ![installation](https://github.com/arsibux/drupal-headless/blob/main/_data/assets/images/installation-1.PNG)
 
+## INSTALL DEV TOOLS
+- Run `ddev ssh`.
+- Run `composer require --dev drush/drush`.
+- Run `composer require --dev drupal/devel`.
+- Run `composer require --dev drupal/webprofile`.
+- Run `composer require drupal/admin_toolbar`.
+- Enable DEV modules run `drush pm:en devel devel_generate webprofile admin_toolbar`.
 
-- Install DEV Tools
-  - Run `ddev ssh`.
-  - Run `composer require --dev drush/drush`.
-  - Run `composer require --dev drupal/devel`.
-  - Run `composer require --dev drupal/webprofile`.
-  - Run `composer require drupal/admin_toolbar`.
+## ENABLE CORE MODULES
+- Run   `drush pm:en basic_auth serialization rest`.
 
-- Enable DEV modules.
-  - Run `Drush pm:en devel devel_generate webprofile admin_toolbar`.
 # Resources
 
 # Changelogs
