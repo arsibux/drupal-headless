@@ -46,7 +46,8 @@ web/LICENSE.txt
 web/README.txt
 web/robots.txt
 web/update.php
-webweb.config
+web/web.config
+web/.ht.router.php
 .ddev/
 .history/
 .idea/
