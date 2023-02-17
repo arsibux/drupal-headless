@@ -3,13 +3,13 @@ Headless drupal means drupal without head { frontend }. Drupal backend as **{ PR
 
 ![headless](https://github.com/arsibux/drupal-headless/blob/main/_drawio/img/headless.drawio.png)
 
-- **INSTALLATION**
-- **INSTALL DEV TOOLS**
-- **WEB SERVICE MODULES**
-- **AUTHENTICATION**
+- **Installation**
+- **Install Dev Tools**
+- **Web Services Modules**
+- **Authentication**
   - **Basic Authenticaion**
   - **JWT Authentication**
-- **REST RESOURCES**
+- **Rest Resources and Endpoints**
   - **Menus**
   - **Pages**
   - **Articles**
@@ -44,7 +44,7 @@ Headless drupal means drupal without head { frontend }. Drupal backend as **{ PR
   - Run `composer require drupal/jwt`.
 - Enable modules run `drush pm:en restui pager_serializer rest_menu_items jwt`.
 
-![installation](https://github.com/arsibux/drupal-headless/blob/main/_data/assets/images/webservices.PNG)
+![webservice](https://github.com/arsibux/drupal-headless/blob/main/_data/assets/images/webservices.PNG)
 
 
 # Resources
@@ -55,3 +55,6 @@ Headless drupal means drupal without head { frontend }. Drupal backend as **{ PR
   - ADDED: Installations
   - ADDED: Core and contrib module installation
   - ADDED: Configuration
+- 18-FEB-2023
+  - ADDED: Basic Authentication.
+  -
