@@ -1,9 +1,7 @@
 # Drupal Headless
 Headless drupal means drupal without head { frontend }. Drupal backend as **{ PRODUCER }** provides ReSTful APIs for different clients **{ CONSUMERS }**. For example {Angular, ReactJs, VueJs, Android, iOS, ReactNative, Flutter }.
 
-
 ![headless](https://github.com/arsibux/drupal-headless/blob/main/_drawio/img/headless.drawio.png)
-
 
 - **INSTALLATION**
 - **CORE MODULES**
@@ -11,11 +9,12 @@ Headless drupal means drupal without head { frontend }. Drupal backend as **{ PR
 - **AUTHENTICATION**
   - **Basic Authenticaion**
   - **JWT Authentication**
-- **RESOURCES**
+- **REST RESOURCES**
   - **Menus**
   - **Pages**
   - **Articles**
   - **Taxonomy**
+  - **User Managment**
 
 ## INSTALLATION
 
