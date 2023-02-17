@@ -5,8 +5,7 @@ Headless drupal means drupal without head { frontend }. Drupal backend as **{ PR
 
 - **INSTALLATION**
 - **INSTALL DEV TOOLS**
-- **ENABLE CORE MODULES**
-- **CONTRIB MODULES**
+- **WEB SERVICE MODULES**
 - **AUTHENTICATION**
   - **Basic Authenticaion**
   - **JWT Authentication**
@@ -36,8 +35,17 @@ Headless drupal means drupal without head { frontend }. Drupal backend as **{ PR
 - Run `composer require drupal/admin_toolbar`.
 - Enable DEV modules run `drush pm:en devel devel_generate webprofile admin_toolbar`.
 
-## ENABLE CORE MODULES
-- Run   `drush pm:en basic_auth serialization rest`.
+## WEB SERVICE MODULES
+- Run this command to enbale core webservices modules  `drush pm:en basic_auth serialization rest`.
+- Download contributed module {secured and stable version}.
+  - Run `composer require drupal/restui` .
+  - Run `composer require drupal/pager_serializer`.
+  - Run `composer require drupal/rest_menu_items`.
+  - Run `composer require drupal/jwt`.
+- Enable modules run `drush pm:en restui pager_serializer rest_menu_items jwt`.
+
+![installation](https://github.com/arsibux/drupal-headless/blob/main/_data/assets/images/webservices.PNG)
+
 
 # Resources
 
