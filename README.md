@@ -25,7 +25,7 @@ Headless drupal means drupal without head { frontend }. Drupal backend as **{ PR
 - Browse https://headless-drupal.ddev.site/
 - Install drupal 10.
 
-![installation](https://github.com/arsibux/drupal-headless/blob/main/_data/assets/images/installation-1.png)
+![installation](https://github.com/arsibux/drupal-headless/blob/main/_data/assets/images/installation-1.PNG)
 
 
 - Install DEV Tools
