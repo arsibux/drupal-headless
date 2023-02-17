@@ -46,7 +46,8 @@ Headless drupal means drupal without head { frontend }. Drupal backend as **{ PR
 
 ![webservice](https://github.com/arsibux/drupal-headless/blob/main/_data/assets/images/webservices.PNG)
 
-
+## AUTHENTICATION
+Takes a username and password out of the request and authenticates them against Drupal.
 # Resources
 
 # Changelogs
